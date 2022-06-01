@@ -1,0 +1,135 @@
+db.categories.insertMany([
+    {
+        _id: 'DesarrolloeIngeniería',
+        name: 'Desarrollo e Ingeniería',
+        paths: [
+            'Fundamentosdeprogramación',
+            'BasesdeDatosdesdeCero',
+            'SeguridadInformática',
+            'DesarrollodeAppsconReactNative',
+            'GoogleCloudPlatform',
+            'Node.js:DesarrolloBackendconJavaScript',
+            'DesarrolloBackendconPythonyDjango',
+            'DesarrolloBackendconJava',
+            'DesarrolloWebBackendconRubyonRails',
+            'AdministracióndeServidoresyDevOps',
+            'DesarrollodeAplicacionesAndroid',
+            'FrontendconReact.js',
+            'DesarrolloBackendconGo',
+            'EscueladeBlockchainyCriptomonedas',
+            'FrontendconAngular',
+            'iOSMobileDeveloper',
+            'BackendconC#y.NET',
+            'Firebase',
+            'DesarrollodeVideojuegosconUnity',
+            'AmazonWebServices',
+            'EscueladeVideojuegos',
+            'DesarrolloconIBMCloud',
+            'EscueladeCloudComputingconAzure',
+            'DesarrolloconWordPress',
+            'InternetofThings',
+            'DesarrollodeAppsMultiplataformaconXamarin',
+            'Ciencias',
+            'MatemáticasparaProgramación',
+            'DesarrollodeAplicacionesMultiplataforma',
+            'MachineLearningEngineer',
+            'DataEngineer',
+            'DataScientist',
+            'DataAnalyst',
+            'EscueladeProgramaciónyDesarrollodeSoftware',
+            'EscueladeJavaScript',
+            'EscueladeDesarrolloWeb',
+            'EscueladeMatemáticas',
+            'EscueladeDataScienceeInteligenciaArtificial',
+            'DesarrolloWebBackendconPHP',
+            'FrontendconVue.js'
+        ]
+    },
+    {
+        _id: 'Marketing',
+        name: 'Marketing',
+        paths: [
+            'Copywriter',
+            'EspecialistaenSEO',
+            'E-commerceMarketer',
+            'EmailMarketing(enrenovación)',
+            'OutboundMarketing',
+            'CommunityManageryRedesSociales',
+            'MarketingDesigner',
+            'DataMarketer',
+            'EscueladePublicidadDigital',
+            'InboundMarketing',
+            'MarketingyVentas',
+            'MarketingBasadoenDatos',
+            'MarketingDigitalyEstrategiaOnline',
+            'EscueladeMarketingDigital'
+        ]
+    },
+    {
+        _id: 'DiseñoyUX',
+        name: 'Diseño y UX',
+        paths: [
+            'DiseñodeInterfaces(UI)',
+            'EscueladeProductDesign',
+            'DiseñodeExperienciadeUsuario(UXDesign)',
+            'EscueladeDiseñoGráfico'
+        ]
+    },
+    {
+        _id: 'HabilidadesBlandas',
+        name: 'Habilidades Blandas',
+        paths: [
+            'Autoconocimiento',
+            'EscueladeHabilidadesBlandas',
+            'Saludmentalyfísica',
+            'EscueladeDiversidadeInclusión',
+            'Oratoriayescritura',
+            'Liderazgo',
+            'Herramientasparaeltrabajo',
+            'Comunicaciónasertiva',
+            'Portugués',
+            'Desarrolloprofesional',
+            'Aprendizajecontinuo',
+            'Gestióndeltiempo'
+        ]
+    },
+    {
+        _id: 'NegociosyEmprendimiento',
+        name: 'Negocios y Emprendimiento',
+        paths: [
+            'EscueladeE-CommerceyNegociosDigitales',
+            'EscueladeBusinessManagement',
+            'EscueladeFinanzaseInversiones'
+        ]
+    },
+    {
+        _id: 'ContenidoDigital',
+        name: 'Contenido Digital',
+        paths: [
+            'Editor/adevideo',
+            'PeriodistaDigital',
+            'Creador/adevideo',
+            'Podcaster',
+            'AumentaturealidadconPlatziyMeta',
+            'Fotógrafo/a',
+            'Estrategadecontenidos',
+            'EscueladePeriodismoDigital',
+            'EscueladeProducciónAudiovisual'
+        ]
+    },
+    {
+        _id: 'Startups',
+        name: 'Startups',
+        paths: [
+            'NoCodeMaker',
+            'EscueladeStartups'
+        ]
+    },
+    {
+        _id: 'Inglés',
+        name: 'Inglés',
+        paths: [
+            'PlatziEnglishAcademy'
+        ]
+    }
+])
