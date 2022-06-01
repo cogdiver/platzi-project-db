@@ -1,0 +1,15 @@
+version: "3.8"
+services:
+  mongodb:
+    container_name: platzi-db
+    image : mongo
+    restart: always
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=platzi
+      - MONGO_INITDB_ROOT_PASSWORD=platzi
+      - PUID=1000
+      - PGID=1000
+    volumes:
+      - /home/barry/mongodb/database-platzi:/data/db
+    ports:
+      - 27018:27017
